@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="http://myhost/style.css" rel="stylesheet" type="text/css">
+    <title>Заказ тура</title>
+
+</head>
+    {header}
+  <style>
+.form-input{
+    background-color:transparent;
+    color:gray;
+    height:40px;
+    width:400px;
+}
+
+  </style>
+<body>
+   
+    <div id="start" class="StartPage">
+        <div class="StartImg">
+            <h1 class="StartPageSize">Путеводитель по Испании</h1>
+        </div>
+    {main_part}
+    <form action="#">
+        <div class="InfoPlace">
+            <div class="TextInfo">
+                <p>Желаете заказать тур? Оставьте заявку на нашем сайте и с вами свяжутся чтобы подобрать индивидуальную программу путешевствия.</p>
+            </div>
+            <div class="TextInfo">
+                <input  class="form-input" tabindex="1" type="text" name="fname" placeholder="Name*">
+                <input class="form-input" tabindex="2" type="email" name="femail" placeholder="E-mail*">
+                <input class="form-input" tabindex="3" type="tel" name="fnumber" placeholder="Telephone*">
+                <p><input type="submit" value="Отправить заявку"></p>
+            </div>
+        </div>
+ {footer}
+    </form>
+    
+   
+</body>
+</html>

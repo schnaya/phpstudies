@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: black;
+    text-decoration:none;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 8vh;/*высота по длине экрана*/
+    position: fixed;
+}
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:25px;
+}
+.ulhead {
+    text-align: center;
+    padding: 20px;
+}
+.lihead {
+    display: inline; /* Отображать как строчный элемент */
+    padding-right: 50px; /* Отступ слева */
+}
+.StartPage {
+    color:white;
+}
+.StartPageSize {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: 44px;
+}
+.StartImg {
+    height: 500px;
+    background-image: url(imgs/tur_spain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.PageImg {
+    height: 300px;
+    background-image: url(imgs/spain2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.Page {
+    padding-top: 25px;
+}
+.VensImgSize {
+    width: 15%;
+    padding-top: 25px;
+}
+.VensImgFooter {
+    width: 5%;
+}
+.VensTextInfo {
+    display: inline; /* Отображать как строчный элемент */
+    padding-right: 10px; /* Отступ слева */
+}
+.AuthorInfo {
+    text-align: center;
+}
+.InfoPlace {
+   
+    max-width: 996px;
+    margin: 0 auto;
+    padding-top: 65px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.TextInfo {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.InfoImgBack {
+    width: 1000px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.f {
+    background-image: url(imgs/sevil.jpg);
+}
+.s {
+    background-image: url(imgs/granada-spain.jpg);
+}
+.th {
+    background-image: url(imgs/gaztelugatxe.jpg);
+}
+
+.fo {
+    background-image: url(imgs/las-kat.jpg);
+}
+u {
+    font-size: large;
+}
+.ButtonPlace {
+    text-align: center;
+    padding-top: 65px;
+}
+button {
+    border-radius: 0px;
+    background-color:transparent;
+    color:black;
+    width:150px;
+    height:50px;
+}
+    button:hover {
+        background-color: antiquewhite;
+    }
+@media screen and (max-width: 996px) {
+    .InfoPlace {
+        max-width: auto;
+        padding-top: 45px;
+    }
+    .InfoImgBack {
+        width: 800px;
+        height: 250px;
+    }   
+}
+@media screen and (max-width: 723px) {
+    .InfoPlace {
+        max-width: none;
+        margin: 0;
+        padding-top: 25px;
+        flex-direction: column;
+    }
+
+    .TextInfo {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .InfoImgBack {
+        width: 100%;
+        height: 200px;
+        margin: 0;
+    }
+    .lihead {
+        display: flex; /* Отображать как строчный элемент */
+        flex-direction: column;
+        padding-right: 0; /* Отступ слева */
+    }
+    header {
+        position:absolute;
+        height: 120px;
+    }
+}
+/*--------------------------------------------------------------------------------------*/
+.StartImg2 {
+    height: 600px;
+    background-image: url(imgs/kordoba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.TextInfo2 {
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+.InfoPlace2 {
+    max-width: 996px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.PageImg2 {
+    height: 300px;
+    background-image: url(imgs/alsakar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.PageImg3 {
+    height: 300px;
+    background-image: url(imgs/ksgranada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.PageImg4 {
+    height: 300px;
+    background-image: url(imgs/spain3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.PageImg5 {
+    height: 300px;
+    background-image: url(imgs/malaga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.PageImg6 {
+    height: 300px;
+    background-image: url(imgs/malaga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.fi {
+    background-image: url(imgs/alikante2.jpg);
+}
+
+.si {
+    background-image: url(imgs/malaga2.jpg);
+}
+.se {
+    background-image: url(imgs/gaztelugatxe.jpg);
+}
+
+.et {
+    background-image: url(imgs/las-kat.jpg);
+}
+/*------------------------------------------------------------------------------------------*/
+form{
+    padding-top:20px;
+    padding-bottom:20px;
+    color:white;
+    background-color:black;
+    margin:0;
+}
+
+.footer2 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*--------------------------------------------------------------------*/
+.StartImg3 {
+    height: 600px;
+    background-image: url(imgs/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.ni {
+    background-image: url(imgs/somiedo.jpg);
+}
+
+.te {
+    background-image: url(imgs/cabo.jpg);
+}
+
+.el {
+    background-image: url(imgs/medulas.jpg);
+}
+
+.tw {
+    background-image: url(imgs/lagnus.jpg);
+}

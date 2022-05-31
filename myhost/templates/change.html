@@ -1,0 +1,19 @@
+<?php
+
+$link=mysqli_connect("localhost", "root", "tortique", "test");
+
+if(isset($_POST['submit']))
+{
+    $query= mysqli_query($link,"UPDATE tours SET price='1600$' WHERE tour='Тур в Севилью'");
+
+}
+?>
+  
+<form method="POST">
+
+<input name="tour" class="form-input" type="text" required><br>
+<input name="price" type="text" required><br>
+<input name="submit" type="submit" value="Редактировать"><br>
+<input name="add" type="submit" value="Добавить"><br>
+<input name="delete" type="submit" value="Удалить">
+</form>
